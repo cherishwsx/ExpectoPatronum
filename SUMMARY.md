@@ -20,4 +20,10 @@
   * [534. Game Play Analysis III](untitled/534.-game-play-analysis-iii.md)
   * [550. Game Play Analysis IV](untitled/550.-game-play-analysis-iv.md)
   * [569. Median Employee Salary](untitled/569.-median-employee-salary.md)
+  * [570. Managers with at Least 5 Direct Reports](untitled/570.-managers-with-at-least-5-direct-reports.md)
+  * [571. Find Median Given Frequency of Numbers](untitled/571.-find-median-given-frequency-of-numbers.md)
+  * [574. Winning Candidate](untitled/574.-winning-candidate.md)
+  * [577. Employee Bonus](untitled/577.-employee-bonus.md)
+  * [578. Get Highest Answer Rate Question](untitled/578.-get-highest-answer-rate-question.md)
+  * [579. Find Cumulative Salary of an Employee](untitled/579.-find-cumulative-salary-of-an-employee.md)
 
