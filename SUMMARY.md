@@ -15,4 +15,7 @@
   * [196. Delete Duplicate Emails](untitled/196.-delete-duplicate-emails.md)
   * [197. Rising Temperature](untitled/197.-rising-temperature.md)
   * [262. Trips and Users](untitled/262.-trips-and-users.md)
+  * [511. Game Play Analysis I](untitled/511.-game-play-analysis-i.md)
+  * [512. Game Play Analysis II](untitled/512.-game-play-analysis-ii.md)
+  * [534. Game Play Analysis III](untitled/534.-game-play-analysis-iii.md)
 
