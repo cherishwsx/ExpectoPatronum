@@ -25,7 +25,23 @@ I'm sure you don't want to miss [this](https://leetcode.com/problemset/database/
 [512. Game Play Analysis II ](512.-game-play-analysis-ii.md)\(Easy\)  
 [534. Game Play Analysis III](534.-game-play-analysis-iii.md) \(Medium\)  
 [550. Game Play Analysis IV](550.-game-play-analysis-iv.md) \(Medium\)  
-[569. Median Employee Salary](569.-median-employee-salary.md) \(Hard\)
+[569. Median Employee Salary](569.-median-employee-salary.md) \(Hard\)  
+[570. Managers with at Least 5 Direct Reports](570.-managers-with-at-least-5-direct-reports.md) \(Medium\)  
+[571. Find Median Given Frequency of Numbers](571.-find-median-given-frequency-of-numbers.md) \(Hard\)  
+[574. Winning Candidate](574.-winning-candidate.md) \(Medium\)  
+[577. Employee Bonus ](577.-employee-bonus.md)\(Easy\)  
+[578. Get Highest Answer Rate Question](578.-get-highest-answer-rate-question.md) \(Medium\)  
+[579. Find Cumulative Salary of an Employee ](579.-find-cumulative-salary-of-an-employee.md)\(Hard\)  
+[580. Count Student Number in Departments](580.-count-student-number-in-departments.md) \(Medium\)  
+[584. Find Customer Referee ](584.-find-customer-referee.md)\(Easy\)  
+[585. Investments in 2016 ](585.-investments-in-2016.md)\(Medium\)  
+[586. Customer Placing the Largest Number of Orders](586.-customer-placing-the-largest-number-of-orders.md) \(Easy\)  
+[595. Big Countries](595.-big-countries.md) \(Easy\)  
+[596. Classes More Than 5 Students](596.-classes-more-than-5-students.md) \(Easy\)  
+[597. Friend Requests I: Overall Acceptance Rate](untitled-1.md) \(Easy\)
+
+  
+
 
 
 
