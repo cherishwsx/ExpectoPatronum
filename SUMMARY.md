@@ -26,4 +26,11 @@
   * [577. Employee Bonus](untitled/577.-employee-bonus.md)
   * [578. Get Highest Answer Rate Question](untitled/578.-get-highest-answer-rate-question.md)
   * [579. Find Cumulative Salary of an Employee](untitled/579.-find-cumulative-salary-of-an-employee.md)
+  * [580. Count Student Number in Departments](untitled/580.-count-student-number-in-departments.md)
+  * [584. Find Customer Referee](untitled/584.-find-customer-referee.md)
+  * [585. Investments in 2016](untitled/585.-investments-in-2016.md)
+  * [586. Customer Placing the Largest Number of Orders](untitled/586.-customer-placing-the-largest-number-of-orders.md)
+  * [595. Big Countries](untitled/595.-big-countries.md)
+  * [596. Classes More Than 5 Students](untitled/596.-classes-more-than-5-students.md)
+  * [Untitled](untitled/untitled-1.md)
 
