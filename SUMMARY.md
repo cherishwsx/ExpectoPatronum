@@ -18,4 +18,6 @@
   * [511. Game Play Analysis I](untitled/511.-game-play-analysis-i.md)
   * [512. Game Play Analysis II](untitled/512.-game-play-analysis-ii.md)
   * [534. Game Play Analysis III](untitled/534.-game-play-analysis-iii.md)
+  * [550. Game Play Analysis IV](untitled/550.-game-play-analysis-iv.md)
+  * [569. Median Employee Salary](untitled/569.-median-employee-salary.md)
 

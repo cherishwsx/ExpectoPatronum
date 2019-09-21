@@ -20,7 +20,12 @@ I'm sure you don't want to miss [this](https://leetcode.com/problemset/database/
 [185. Department Top Three Salaries](185.-department-top-three-salaries.md) \(Hard\)  
 [196. Delete Duplicate Emails](196.-delete-duplicate-emails.md) \(Easy\)  
 [197. Rising Temperature](197.-rising-temperature.md) \(Easy\)  
-[262. Trips and Users](262.-trips-and-users.md) \(Hard\)
+[262. Trips and Users](262.-trips-and-users.md) \(Hard\)  
+[511. Game Play Analysis I](511.-game-play-analysis-i.md) \(Easy\)  
+[512. Game Play Analysis II ](512.-game-play-analysis-ii.md)\(Easy\)  
+[534. Game Play Analysis III](534.-game-play-analysis-iii.md) \(Medium\)  
+[550. Game Play Analysis IV](550.-game-play-analysis-iv.md) \(Medium\)  
+[569. Median Employee Salary](569.-median-employee-salary.md) \(Hard\)
 
 
 
