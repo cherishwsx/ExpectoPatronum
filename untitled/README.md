@@ -8,6 +8,12 @@ description: >-
 
 I'm sure you don't want to miss [this](https://leetcode.com/problemset/database/).
 
+1. Don't forget the alias after the from subquery
+2. Always consider the distinct case
+3. You can find max using the where, having and limit or window function
+4. Window function is slower
+5. Do you want the `NULL` result? Try `ISNULL()`
+
 [175. Combine Two Tables](175.-combine-two-tables-easy.md) \(Easy\)  
 [176. Second Highest Salary ](176.-second-highest-salary.md)\(Easy\)  
 [177. Nth Highest Salary](177.-nth-highest-salary.md) \(Medium\)  
