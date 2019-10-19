@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Preface](README.md)
-* [Database](untitled/README.md)
+* [Leetcode Database](untitled/README.md)
   * [175. Combine Two Tables](untitled/175.-combine-two-tables-easy.md)
   * [176. Second Highest Salary](untitled/176.-second-highest-salary.md)
   * [177. Nth Highest Salary](untitled/177.-nth-highest-salary.md)
@@ -80,5 +80,7 @@
   * [1193. Monthly Transactions I](untitled/1193.-monthly-transactions-i.md)
   * [1194. Tournament Winners](untitled/1194.-tournament-winners.md)
   * [1204. Last Person to Fit in the Elevator](untitled/1204.-last-person-to-fit-in-the-elevator.md)
-* [对Anaconda的一点认知](dui-anaconda-de-yi-dian-ren-zhi.md)
+* [Study Diary](study-diary.md)
+* [Study Summary](study-summary/README.md)
+  * [对Anaconda的一点认知](study-summary/dui-anaconda-de-yi-dian-ren-zhi.md)
 

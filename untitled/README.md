@@ -4,7 +4,7 @@ description: >-
   than being right.
 ---
 
-# Database
+# Leetcode Database
 
 I'm sure you don't want to miss [this](https://leetcode.com/problemset/database/).
 
