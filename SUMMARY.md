@@ -80,4 +80,5 @@
   * [1193. Monthly Transactions I](untitled/1193.-monthly-transactions-i.md)
   * [1194. Tournament Winners](untitled/1194.-tournament-winners.md)
   * [1204. Last Person to Fit in the Elevator](untitled/1204.-last-person-to-fit-in-the-elevator.md)
+* [对Anaconda的一点认知](dui-anaconda-de-yi-dian-ren-zhi.md)
 
