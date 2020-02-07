@@ -10,7 +10,7 @@ description: 这里有一条蟒蛇
 
 首先我知道我电脑里面Python的版本有很多很多，之前直接安装过Python3官方的IDE就，通过brew也安装过，Python2好像也有安装。总之就是零零散散各种版本。那我该怎么办，于是我就想办法把`\usr\local\bin`里自带的Python给整个带走了，然后再`brew clean`了一下。主要是参考了这一篇 [https://www.jianshu.com/p/98383a7688a5](https://www.jianshu.com/p/98383a7688a5) 的教学。但是我最后输入`python3`之后，还是会给我进入Python中，并且所指向Python路径是`/usr/bin`中，这个路径按道理来说是System中的路径不能随意改动的，所以后来我也没敢乱动这里。在整理完Python各种版本之后，我的Pycharm里面剩下这些：（其实到现在我也还是不明白这几个有什么区别，但是我不敢动）
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 这两个是外来的Python版本，其中invalid是我清理掉的，另一个是Anaconda的环境
 
@@ -22,7 +22,7 @@ description: 这里有一条蟒蛇
 
 然后你就可以开心的建立各种环境啦！因为我下载的是Anaconda3所以base环境下就直接是Python3
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 当你创建了新的环境的时候，你的新环境是没有Anaconda的自带包的，所以可以通过`conda install anaconda`到这个环境当中去获取所有包的权限
 
@@ -38,7 +38,7 @@ description: 这里有一条蟒蛇
 
 为了使用Anaconda的自带环境，所以把Pycharm的环境设置为Anaconda的环境。一定要从路径下找这个文件，而不是直接选Anaconda environment。
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 #### 5. 这是一个漫长的过程
 

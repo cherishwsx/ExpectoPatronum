@@ -83,7 +83,8 @@
   * [1193. Monthly Transactions I](untitled/1193.-monthly-transactions-i.md)
   * [1194. Tournament Winners](untitled/1194.-tournament-winners.md)
   * [1204. Last Person to Fit in the Elevator](untitled/1204.-last-person-to-fit-in-the-elevator.md)
-* [Study Diary](study-diary.md)
-* [Study Summary](study-summary/README.md)
+* [Funny Things](study-summary/README.md)
   * [对Anaconda的一点认知](study-summary/dui-anaconda-de-yi-dian-ren-zhi.md)
+* [My Fast.ai Notes](my-fast.ai-notes/README.md)
+  * [Lesson 1](my-fast.ai-notes/lesson-1.md)
 

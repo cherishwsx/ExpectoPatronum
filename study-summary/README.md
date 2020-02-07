@@ -1,2 +1,2 @@
-# Study Summary
+# Funny Things
 
