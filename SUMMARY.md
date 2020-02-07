@@ -86,6 +86,6 @@
 * [Funny Things](study-summary/README.md)
   * [对Anaconda的一点认知](study-summary/dui-anaconda-de-yi-dian-ren-zhi.md)
 * [My Fast.ai Notes](my-fast.ai-notes/README.md)
-  * [Lesson2 Download](my-fast.ai-notes/lesson2-download.md)
+  * [Lesson2 SGD](my-fast.ai-notes/lesson2-download.md)
   * [Lesson 1](my-fast.ai-notes/lesson-1.md)
 
