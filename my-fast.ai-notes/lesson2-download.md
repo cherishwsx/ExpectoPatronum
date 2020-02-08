@@ -1,4 +1,4 @@
-# Lesson2 SGD
+# Lesson 2 SGD
 
 ## Debug
 
