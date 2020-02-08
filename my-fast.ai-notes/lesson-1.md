@@ -1,3 +1,9 @@
+---
+description: >-
+  Original Detailed Notes:
+  https://github.com/hiromis/notes/blob/master/Lesson1.md
+---
+
 # Lesson 1
 
 Thanks a lot to [https://blog.csdn.net/sty945/article/details/90904917](https://blog.csdn.net/sty945/article/details/90904917)

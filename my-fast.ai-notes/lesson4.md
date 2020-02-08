@@ -1,3 +1,9 @@
+---
+description: >-
+  Original Detailed Notes:
+  https://github.com/hiromis/notes/blob/master/Lesson4.md
+---
+
 # Lesson 4
 
 ## Interesting Question
