@@ -1,3 +1,9 @@
+---
+description: >-
+  Original Detailed Notes:
+  https://github.com/hiromis/notes/blob/master/Lesson3.md
+---
+
 # Lesson 3
 
 ## General Issue&Tips

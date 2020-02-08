@@ -1,4 +1,10 @@
-# Lesson2 SGD
+---
+description: >-
+  Original Detailed Notes:
+  https://github.com/hiromis/notes/blob/master/Lesson2.md
+---
+
+# Lesson 2 SGD
 
 ## Debug
 
