@@ -1,9 +1,3 @@
----
-description: >-
-  Original Detailed Notes:
-  https://github.com/hiromis/notes/blob/master/Lesson3.md
----
-
 # Lesson 3
 
 ## General Issue&Tips
@@ -36,28 +30,30 @@ Sometimes the pretrain model we get is only good for certain size of a image and
 
 1. Replace with your new data in the learner
 
-   \`\`\`python
+```python
+learn = cnn_learner(data_128, arch, metrics=[acc_02, f_score])
 
-   learn = cnn\_learner\(data\_128, arch, metrics=\[acc\_02, f\_score\]\)
+data_256 = (src.transform(tfms, size=256)
+        .databunch().normalize(imagenet_stats))
 
-data\_256 = \(src.transform\(tfms, size=256\) .databunch\(\).normalize\(imagenet\_stats\)\)
+learn.data = data_256 #将模型中的data替换成新的data
+```
 
-learn.data = data\_256 \#将模型中的data替换成新的data
-
-```text
-2. freeze it if your learner is unfreezed before
-3. Find the learning rate and plot it
-4. Then can also unfreeze it to train the model with previous 128 unfreeze learning rate for training. Or create a new learner with bigger size dataset and load the weight from learner with smaller dataset to retrain it.
+1. freeze it if your learner is unfreezed before
+   1. Find the learning rate and plot it
+   2. Then can also unfreeze it to train the model with previous 128 unfreeze learning rate for training. Or create a new learner with bigger size dataset and load the weight from learner with smaller dataset to retrain it.
 
 More detail on **Progressive Resizing**. Here we mainly benefit the result that we got when using smaller size picture and don't need to spend too much time find the optimal for bigger size image from scratch.
 
-## Save model Info
+### Save model Info
+
 * stage-1 refers to freezed model
 * stage-2 refers to unfreezed model
 * image size
 * model archetecture
 
-## Check Memory Used
+### Check Memory Used
+
 ```python
 # Below are equivalent
 gpu_mem_get_free_no_cache()
@@ -111,11 +107,10 @@ This is actually a really good situation that you want since you started to get 
 ![Alt text](https://tva1.sinaimg.cn/large/0082zybpgy1gbop8glb3aj30rx0lrgoh.jpg)
 
 1. After we are done with the convolution \(maybe to next convolution or top layer result\), we will apply a non-lineariy function or we call it activation function. It takes the result from the convolution and then put it into another function.
-
-* Sigmoid is less commonly used
-* ReLU is more commonly used. `max(x, 0)`
-* **Universal approximation theorem** which means that with different number combination of convolution \(matrix multiplication\) and activation function you can appriximate any function. So now what you left is to find out the parameter matrix in your matrix multiplication using Gradient Descent to do the work you want.
-* 直白的解释：We have a function where we take our input pixels or whatever, we multiply them by some weight matrix, we replace the negatives with zeros, we multiply it by another weight matrix, replace the negative zeros, we do that a few times. We see how close it is to our target and then we use gradient descent to update our weight matrices using the derivatives, and we do that a few times. And eventually, we end up with something that can classify movie reviews or can recognize pictures of ragdoll cats. That's actually it.
+2. Sigmoid is less commonly used
+3. ReLU is more commonly used. `max(x, 0)`
+4. **Universal approximation theorem** which means that with different number combination of convolution \(matrix multiplication\) and activation function you can appriximate any function. So now what you left is to find out the parameter matrix in your matrix multiplication using Gradient Descent to do the work you want.
+5. 直白的解释：We have a function where we take our input pixels or whatever, we multiply them by some weight matrix, we replace the negatives with zeros, we multiply it by another weight matrix, replace the negative zeros, we do that a few times. We see how close it is to our target and then we use gradient descent to update our weight matrices using the derivatives, and we do that a few times. And eventually, we end up with something that can classify movie reviews or can recognize pictures of ragdoll cats. That's actually it.
 
 ## Kaggle API
 

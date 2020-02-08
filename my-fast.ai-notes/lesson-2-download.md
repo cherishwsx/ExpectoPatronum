@@ -1,9 +1,3 @@
----
-description: >-
-  Original Detailed Notes:
-  https://github.com/hiromis/notes/blob/master/Lesson2.md
----
-
 # Lesson 2 Download
 
 ## General Things to Notice
