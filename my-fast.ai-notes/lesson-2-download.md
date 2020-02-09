@@ -44,7 +44,9 @@ It will jump back and forth and probably diverge at the end. ![enter image descr
 
 #### Too few epoch
 
-`train_loss` is greater than `valid_loss` ![image-20200207161912308](https://tva1.sinaimg.cn/large/0082zybpgy1gboojstzqij30zu04sgma.jpg)
+`train_loss` is greater than `valid_loss`
+
+ ![image-20200207161912308](https://tva1.sinaimg.cn/large/0082zybpgy1gboojstzqij30zu04sgma.jpg)
 
 #### Too many eposh
 
