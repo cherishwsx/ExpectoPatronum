@@ -1,10 +1,4 @@
----
-description: >-
-  Original Detailed Notes:
-  https://github.com/hiromis/notes/blob/master/Lesson4.md
----
-
-# Lesson 4
+# Lesson4
 
 ## Interesting Question
 
@@ -20,7 +14,7 @@ In the neural network, you can have two different sets of inputs merging togethe
 
 Pretrained model 可能不会有大量的emoji在backend data中，但是可以通过微调。但是比如对于中文来说，it's better to use a model that is specifically trained with Chinese character. And there is a repo called [Model Zoo](https://forums.fast.ai/t/language-model-zoo-gorilla/14623) for fast.ai where there are a lot of pretrained model in different area like gene sequences, medical text and musix note.
 
-### Question 3
+### Question 2
 
 > The other thing you can do if you, for whatever reason, can't go through that UX of asking people did you like those things \(for example if you're selling products and you don't really want to show them a big selection of your products and say did you like this because you just want them to buy\), what you can do?
 
@@ -55,11 +49,11 @@ Traditionally, people use regression, random forest and machine learning to work
 * Most basic collab filtering is that a table user ID and the movieID they bought or like. Then you can add more information like comments, reviews, rating and transaction time etc. Two ways of showing this dataset, 回忆一下之前AI的课程，在介绍协同过滤的时候，table所呈现的样子基本都是所有的user是row，所有的item是column，这样每个用户对于每个item的打分也更加清晰，但是因为不是每个用户都会打分所有的item，所以在一定程度上这个matrix是sparse的，从而也导致了不容易存储，也非常巨大 ，所以在存储的时候还是按照long format的形式去存储
 * 但是实际上我们之后的alternative least square就是在学习填满这个matrix，**Matrix Factorization** 将两个randomly initialize的matrices做dot product得到一个用户对于一个电影的评分，然后和真实情况比较，然后通过loss function计算loss，之后Gradient Descent update参数 to make the loss smaller。[1:07:25](https://youtu.be/C9UdVPE3ynA?t=4045)
 
+  ![img](https://github.com/hiromis/notes/raw/master/lesson4/6.png)
+
 * 适用的情况下是，当你已经有users or movies, product's information.
 * 其实在fastai中，collab filtering只是一个简单的线性神经层，也就是`nn.Embedding`这一层，with two weight matrix with a nonlinearity.
 * 我们需要去设定rating的范围吗，也就是score的定义，我们可以不用，因为神经网络自己会学习到真实的范围，但是为了让神经网络focus on重要的tasks我们就在forward最后输出的地方加上了一个sigmoid。
-
-![img](https://github.com/hiromis/notes/raw/master/lesson4/6.png)
 
 ### Read Data
 
