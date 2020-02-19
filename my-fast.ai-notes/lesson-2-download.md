@@ -1,3 +1,9 @@
+---
+description: >-
+  Original Detailed Notes:
+  https://github.com/hiromis/notes/blob/master/Lesson2.md
+---
+
 # Lesson 2 Download
 
 ## General Things to Notice
@@ -22,13 +28,21 @@ The `valid_loss` will be really high. 不管你经历了多少个epoch, 如果�
 
 ![image-20200207161754903](https://tva1.sinaimg.cn/large/0082zybpgy1gbooimw7taj30zs05qwev.jpg)
 
-![enter image description here](https://github.com/hiromis/notes/raw/master/lesson3/jose4.gif) 
+ 
 
-It will jump back and forth and probably diverge at the end. ![enter image description here](https://github.com/hiromis/notes/raw/master/lesson3/jose5.gif)
+![enter image description here](https://github.com/hiromis/notes/raw/master/lesson3/jose4.gif)
+
+It will jump back and forth and probably diverge at the end.
+
+ 
+
+![enter image description here](https://github.com/hiromis/notes/raw/master/lesson3/jose5.gif)
 
 #### Learning rate too low
 
-![image-20200207161828460](https://tva1.sinaimg.cn/large/0082zybpgy1gbooj47l9vj30vs0u0mzp.jpg) 
+ 
+
+![image-20200207161828460](https://tva1.sinaimg.cn/large/0082zybpgy1gbooj47l9vj30vs0u0mzp.jpg)
 
 1. We can see that the `error_rate` goes down very very slow. 
 
@@ -38,7 +52,9 @@ It will jump back and forth and probably diverge at the end. ![enter image descr
 
 #### Too few epoch
 
-`train_loss` is greater than `valid_loss` ![image-20200207161912308](https://tva1.sinaimg.cn/large/0082zybpgy1gboojstzqij30zu04sgma.jpg)
+`train_loss` is greater than `valid_loss`
+
+ ![image-20200207161912308](https://tva1.sinaimg.cn/large/0082zybpgy1gboojstzqij30zu04sgma.jpg)
 
 #### Too many eposh
 
