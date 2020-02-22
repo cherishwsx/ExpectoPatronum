@@ -91,4 +91,5 @@
   * [Lesson 2 SGD](my-fast.ai-notes/lesson2-download.md)
   * [Lesson 3](my-fast.ai-notes/lesson-3-1.md)
   * [Lesson 4](my-fast.ai-notes/lesson4.md)
+  * [Lesson 5: Back propagation; Accelerated SGD; Neural net from scratch](my-fast.ai-notes/lesson-5-back-propagation-accelerated-sgd-neural-net-from-scratch.md)
 
