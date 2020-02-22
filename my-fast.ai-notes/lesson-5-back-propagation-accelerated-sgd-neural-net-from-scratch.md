@@ -1,5 +1,7 @@
 ---
-description: 'Detailed Notes: https://github.com/hiromis/notes/blob/master/Lesson5.md'
+description: >-
+  Original Detailed Notes:
+  https://github.com/hiromis/notes/blob/master/Lesson5.md
 ---
 
 # Lesson 5: Back propagation; Accelerated SGD; Neural net from scratch

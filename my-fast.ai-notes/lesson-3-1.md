@@ -4,7 +4,7 @@ description: >-
   https://github.com/hiromis/notes/blob/master/Lesson3.md
 ---
 
-# Lesson 3
+# Lesson 3: Data blocks; Multi-label classification; Segmentation
 
 ## General Issue&Tips
 
