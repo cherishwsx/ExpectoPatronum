@@ -92,4 +92,6 @@
   * [Lesson 3: Data blocks; Multi-label classification; Segmentation](my-fast.ai-notes/lesson-3-1.md)
   * [Lesson 4: NLP; Tabular data; Collaborative filtering; Embeddings](my-fast.ai-notes/lesson4.md)
   * [Lesson 5: Back propagation; Accelerated SGD; Neural net from scratch](my-fast.ai-notes/lesson-5-back-propagation-accelerated-sgd-neural-net-from-scratch.md)
+  * [Lesson 6: Regularization; Convolutions; Data ethics](my-fast.ai-notes/lesson-6-regularization-convolutions-data-ethics.md)
+  * [Lesson 7: Resnets from scratch; U-net; Generative \(adversarial\) networks](my-fast.ai-notes/lesson-7-resnets-from-scratch-u-net-generative-adversarial-networks.md)
 
