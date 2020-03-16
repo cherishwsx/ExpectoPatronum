@@ -13,6 +13,8 @@ description: 由Retina发出的疑问。
 3. \*\*\*\*[**Lesson 3: Data blocks; Multi-label classification; Segmentation**](lesson-3-1.md)\*\*\*\*
 4. \*\*\*\*[**Lesson 4: NLP; Tabular data; Collaborative filtering; Embeddings**](lesson4.md)\*\*\*\*
 5. \*\*\*\*[**Lesson 5: Back propagation; Accelerated SGD; Neural net from scratch**](lesson-5-back-propagation-accelerated-sgd-neural-net-from-scratch.md)\*\*\*\*
-6. **Lesson 6: Regularization; Convolutions; Data ethics**
-7. **Lesson 7: Resnets from scratch; U-net; Generative \(adversarial\) networks**
+6. \*\*\*\*[**Lesson 6: Regularization; Convolutions; Data ethics**](lesson-6-regularization-convolutions-data-ethics.md)\*\*\*\*
+7. \*\*\*\*[**Lesson 7: Resnets from scratch; U-net; Generative \(adversarial\) networks**](lesson-7-resnets-from-scratch-u-net-generative-adversarial-networks.md)\*\*\*\*
+
+
 
