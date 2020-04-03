@@ -85,7 +85,7 @@
   * [1204. Last Person to Fit in the Elevator](untitled/1204.-last-person-to-fit-in-the-elevator.md)
 * [Funny Things](study-summary/README.md)
   * [对Anaconda的一点认知](study-summary/dui-anaconda-de-yi-dian-ren-zhi.md)
-* [My Fast.ai Notes](my-fast.ai-notes/README.md)
+* [Fast.ai Deep Learning Course Part 1 Note](my-fast.ai-notes/README.md)
   * [Lesson 1: Image classification](my-fast.ai-notes/lesson-1.md)
   * [Lesson 2 Download](my-fast.ai-notes/lesson-2-download.md)
   * [Lesson 2 SGD](my-fast.ai-notes/lesson2-download.md)

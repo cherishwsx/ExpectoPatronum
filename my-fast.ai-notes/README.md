@@ -2,7 +2,7 @@
 description: 由Retina发出的疑问。
 ---
 
-# My Fast.ai Notes
+# Fast.ai Deep Learning Course Part 1 Note
 
 ### Content
 
