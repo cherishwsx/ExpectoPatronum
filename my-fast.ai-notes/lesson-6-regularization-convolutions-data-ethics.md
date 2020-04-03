@@ -188,7 +188,7 @@ Generally speaking, our input is HxWx3, and we ususally define 16 kernels and ha
 
 卷积之后，matrix大小算法：`input size - kernel size + stride = output size`
 
-要注意的是Conv2d和Conv1d，这里的数字和stride没有关系，而是是否对高做卷积，
+要注意的是Conv2d和Conv1d，这里的数字和stride没有关系，而是是否对高做卷积，也就是Conv1是对一个序列, 而Conv2d是对一个图片, 不考虑channel个数, 所以实际上来说是一个3d的.
 
 很多时候我们为了避免过大的内存占用 since channel number is increasing。我们通常跳过两个像素去做kernel的multiplication，比如从\(2,2\)-&gt;\(2,4\)-&gt;\(2,6\)...
 
