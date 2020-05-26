@@ -77,7 +77,7 @@ ni是你的输入通道的size，nf是你的输出size，而上一层的nf和下
 
 那应该怎么去improve呢，可以尝试将神经网络构建的更深，比如在每一个Conv2d后面加上一个步长为1的卷积，这样是不会改变的你output channel size的。
 
-#### ResNet
+## ResNet
 
 或者我们来考虑一下[ResNet](https://arxiv.org/abs/1512.03385)结构。ResNet是微软研究院的Kaiming He和他的团队研发出来的，当他们用56层的卷积层，也就是我们刚刚在讨论的一模一样的层只不过增加了一些Conv1d，在Cifar10上做实验的时候，发现56层的卷积层比20层的卷积层效果更差，很神奇！
 
@@ -103,7 +103,7 @@ ni是你的输入通道的size，nf是你的输出size，而上一层的nf和下
 
 ![image-20200226142549458](https://tva1.sinaimg.cn/large/0082zybpgy1gcak1opk5cj30gg0cs792.jpg)
 
-#### ResBlocks
+### ResBlocks
 
 在代码里，按照刚刚讲过的，我们创建了一个ResBlock。我们创建了一个`nn.Module`，`conv_layer`（记住，一个`conv_layer`是Conv2d、ReLU、batch norm的组合），我们创建了两个这样的东西，然后在forward里，我们运行`conv1(x)`，然后对它运行`conv2`，然后添加`x`。
 
@@ -119,7 +119,7 @@ ni是你的输入通道的size，nf是你的输出size，而上一层的nf和下
 
 如果你在尝试新的架构，持续重构可以让你更少出错。很少人这样做。你看到的大多数研究代码都很笨重，这样经常会出错，不要这样做。你们都是coder，用你们的编程技能让事情保持简单。
 
-#### Learner
+### Learner
 
 然后你再接着learner，和之前的步骤一样。
 
@@ -131,13 +131,13 @@ ni是你的输入通道的size，nf是你的输出size，而上一层的nf和下
 
 ![image-20200226144823529](https://tva1.sinaimg.cn/large/0082zybpgy1gcakp5i6boj30q60fm7av.jpg)
 
-#### fastai ResBlocks
+### fastai ResBlocks
 
 我们现在知道了ResBlocks是个非常有用的东西，并且有很多Library都在尝试着对他进行更多优化，从而运行的更快，同样的，fastai也帮你做了一个这样的implement。fastai中的ResBlocks使用MergeLayer和SequentialEx实现的。现在可以这么解释，可以看到MergeLayer里面的forward中有`x+x.orig`这个`x.orig`就是SquentialEx中来的。它和fastai里的sequential拓展类似。它就像一个普通的sequential模型，但我们把输入保存在`x.orig`。所以这个`SequentialEx`, `conv_layer`, `conv_layer`, `MergeLayer`做的事情和`ResBlock`一样。你可以用`SequentialEx`和`MergeLayer`很简单的创建你自己的ResNet block变体。
 
 ![image-20200226144349400](https://tva1.sinaimg.cn/large/0082zybpgy1gcakqqa31wj30lj07z400.jpg)
 
-#### DenseNet and DenseBlocks
+### DenseNet and DenseBlocks
 
 当你创建MergeLayer时，你可以选择设置`dense=True`，这会发生什么？如果你这样做，它不会运行`x+x.orig`，它会运行`cat([x,x.orig])`。换句话说，不再用加法，它做了一个concatenate（连接）。你的输入进入了Res block，当你用concatenate替代相加时，它不再调用Res block，它调用的是一个dense block。它不再叫ResNet，它叫DenseNet。如下图：
 
