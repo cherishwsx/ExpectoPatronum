@@ -95,5 +95,9 @@
   * [Lesson 6: Regularization; Convolutions; Data ethics](my-fast.ai-notes/lesson-6-regularization-convolutions-data-ethics.md)
   * [Lesson 7: Resnets from scratch; U-net; Generative \(adversarial\) networks](my-fast.ai-notes/lesson-7-resnets-from-scratch-u-net-generative-adversarial-networks.md)
 * [Algorithm Review](algorithm-review.md)
-* [Deep Learning Note](natural-language-processing-note.md)
+* [Deep Learning Note](natural-language-processing-note/README.md)
+  * [基本元素](natural-language-processing-note/ji-ben-yuan-su.md)
+  * [Convolutional Network](natural-language-processing-note/convolutional-network.md)
+  * [ResNet](natural-language-processing-note/resnet.md)
+  * [Recurrent Neural Network](natural-language-processing-note/recurrent-neural-network.md)
 
