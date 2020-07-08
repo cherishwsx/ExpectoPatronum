@@ -1,6 +1,8 @@
 ---
-description: From Fast.ai growing NLP course.
+description: 永远都是beginner
 ---
 
-# Natural Language Processing Note
+# Deep Learning Note
+
+一只脚都还没跨入门内。
 
