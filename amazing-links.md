@@ -7,7 +7,7 @@ description: 总有一些大神 他们做出的links 让我惊叹
 ## Machine Learning
 
 * 一个ML Glossary，目前来说没有特别齐全，但是已有的知识点总结比较到位：[https://ml-cheatsheet.readthedocs.io/en/latest/index.html](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)
-* Google的一个crash course，记得当时时看到了关于ROC和AUC的总结，写的特别特别好，既然时Google的，那么其他知识点讲道理肯定不会差吧：[https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
+* Google的一个crash course，记得当时看到了关于ROC和AUC的总结，写的特别特别好，既然时Google的，那么其他知识点讲道理肯定不会差吧：[https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
 * Cornell的Machine Learning for artificial intelligent，从理论出发的涵盖很多经典ML知识点（KNN，SVM等等）的课程视频：[http://www.cs.cornell.edu/courses/cs4780/2018fa/page18/](http://www.cs.cornell.edu/courses/cs4780/2018fa/page18/)
 * Kaggle大神总结的比赛tips，其实和工作中训练模型很相关：[https://www.kaggle.com/c/mdd-cup-2018/discussion/63944](https://www.kaggle.com/c/mdd-cup-2018/discussion/63944)
 
