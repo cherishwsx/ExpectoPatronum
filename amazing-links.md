@@ -34,8 +34,6 @@ description: 总有一些大神 他们做出的links 让我惊叹
   * 大神做的Roadmap to machine learning:很酷很总结[https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)
 * 不知道这个博客的背景，但是写的很正统（强推模型选择的一些基本思想和方法这一篇！）：[https://cosx.org/](https://cosx.org/)
 * 刘建平，这三个字放在这里我不说了，又是救了上534的我一条🐷命的博客：[https://www.cnblogs.com/pinard/](https://www.cnblogs.com/pinard/) 以及配套Github：[https://github.com/ljpzzz/machinelearning](https://github.com/ljpzzz/machinelearning) 
-
-
-
+* 
 
 
