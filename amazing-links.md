@@ -17,6 +17,7 @@ description: 总有一些大神 他们做出的links 让我惊叹
 * 一个github资料pool，总结了很多比较经典的DL教程以及大学课程视频：[https://github.com/w510056105/DeepLearning](https://github.com/w510056105/DeepLearning)
 * **非常像fast.ai理念的一个教程，especially for coders**：[https://zh.gluon.ai/chapter\_how-to-use/how-to-use.html](https://zh.gluon.ai/chapter_how-to-use/how-to-use.html)
 * 莫烦的教程，（但是其实好像不是很适合我？[https://mofanpy.com/learning-steps/](https://mofanpy.com/learning-steps/)
+* 斯坦福大学的cs231n，神课不上完我改姓（**flag**）：[https://cs231n.github.io](https://cs231n.github.io)
 
 ### R Language
 
@@ -34,6 +35,8 @@ description: 总有一些大神 他们做出的links 让我惊叹
   * 大神做的Roadmap to machine learning:很酷很总结[https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)
 * 不知道这个博客的背景，但是写的很正统（强推模型选择的一些基本思想和方法这一篇！）：[https://cosx.org/](https://cosx.org/)
 * 刘建平，这三个字放在这里我不说了，又是救了上534的我一条🐷命的博客：[https://www.cnblogs.com/pinard/](https://www.cnblogs.com/pinard/) 以及配套Github：[https://github.com/ljpzzz/machinelearning](https://github.com/ljpzzz/machinelearning) 
-* 
+
+
+
 
 
