@@ -85,6 +85,7 @@
   * [1194. Tournament Winners](untitled/1194.-tournament-winners.md)
   * [1204. Last Person to Fit in the Elevator](untitled/1204.-last-person-to-fit-in-the-elevator.md)
 * [Funny Things](study-summary/README.md)
+  * [在AWS instance上使用Jupyter Notebook/Lab](study-summary/zai-aws-instance-shang-shi-yong-jupyter-notebooklab.md)
   * [对Anaconda的一点认知](study-summary/dui-anaconda-de-yi-dian-ren-zhi.md)
 * [Fast.ai Deep Learning Course Part 1 Note](my-fast.ai-notes/README.md)
   * [Lesson 1: Image classification](my-fast.ai-notes/lesson-1.md)
