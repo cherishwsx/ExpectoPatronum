@@ -99,7 +99,7 @@
 * [Algorithm Review](algorithm-review.md)
 * [Deep Learning Note](natural-language-processing-note/README.md)
   * [基本元素](natural-language-processing-note/ji-ben-yuan-su.md)
-  * [Convolutional Network](natural-language-processing-note/convolutional-network.md)
-  * [ResNet](natural-language-processing-note/resnet.md)
+  * [Convolutional Network](natural-language-processing-note/convolutional-network/README.md)
+    * [ResNet](natural-language-processing-note/convolutional-network/resnet.md)
   * [Recurrent Neural Network](natural-language-processing-note/recurrent-neural-network.md)
 
